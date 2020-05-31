@@ -1,5 +1,5 @@
 
-de('node2') {
+node('node2') {
     stage('Checkout'){
         sh 'echo "Checking Out"'
         sh 'sleep 10'
